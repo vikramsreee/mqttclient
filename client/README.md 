@@ -1,0 +1,10 @@
+To Run
+
+eg:java -jar client.jar tcp://test.mosquitto.org:1883  test test 100  topic1    msg 1
+arg[0] - url
+arg[1] - userid
+arg[2] - pwd
+arg[3] - keepaline value in seconds
+arg[4] - topic
+arg[5] - message to publish
+arg[6] - qos
